@@ -23,7 +23,6 @@ sudo snap install apache-netbeans --classic
 sudo snap install eclipse --classic
 
 flatpak install flathub com.viber.Viber -y
-flatpak install flathub com.jetbrains.PhpStorm -y
 flatpak install flathub com.sublimetext.three -y
-flatpak install flathub io.atom.Atom￼content_copy -y
+flatpak install flathub io.atom.Atom￼ -y
 flatpak install flathub com.discordapp.Discord -y
