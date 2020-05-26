@@ -16,11 +16,11 @@ sudo adduser pguragain3 libvirt
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-sudo snap install code --classic -y
-sudo snap install android-studio --classic -y
-sudo snap install obs-studio -y
-sudo snap install apache-netbeans --classic -y
-sudo snap install eclipse --classic -y
+sudo snap install code --classic
+sudo snap install android-studio --classic
+sudo snap install obs-studio
+sudo snap install apache-netbeans --classic
+sudo snap install eclipse --classic
 
 flatpak install flathub com.viber.Viber -y
 flatpak install flathub com.jetbrains.PhpStorm -y
