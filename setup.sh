@@ -11,8 +11,8 @@ sudo apt install celluloid telegram-desktop gnome-tweaks gnome-system-tools virt
 sudo apt install default-jre default-jdk psensor snapd flatpak gimp shotcut steam  gnome-software-plugin-flatpak github-desktop -y
 sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils -y
 
-sudo adduser pguragain3 kvm -y
-sudo adduser pguragain3 libvirt -y
+sudo adduser pguragain3 kvm
+sudo adduser pguragain3 libvirt
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
