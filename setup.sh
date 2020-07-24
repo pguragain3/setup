@@ -8,7 +8,7 @@ sudo add-apt-repository -y ppa:lutris-team/lutris
 
 #install apps
 sudo apt install celluloid telegram-desktop gnome-tweaks gnome-system-tools virtualbox celluloid ubuntu-restricted-extras timeshift -y
-sudo apt install default-jre default-jdk psensor snapd flatpak gimp shotcut steam  gnome-software-plugin-flatpak github-desktop -y
+sudo apt install openjdk-14-jdk psensor snapd flatpak gimp shotcut steam  gnome-software-plugin-flatpak -y
 sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils -y
 
 sudo adduser pguragain3 kvm
@@ -18,11 +18,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 sudo snap install code --classic
 sudo snap install android-studio --classic
-sudo snap install obs-studio
-sudo snap install apache-netbeans --classic
-sudo snap install eclipse --classic
 
 flatpak install flathub com.viber.Viber -y
-flatpak install flathub com.sublimetext.three -y
-flatpak install flathub io.atom.Atom￼ -y
-flatpak install flathub com.discordapp.Discord -y
+
