@@ -1,0 +1,18 @@
+conda install -y jupyter
+
+conda create --name tensorflow-gpu python=3.7
+
+conda activate tensorflow-gpu
+
+conda install nb_conda
+
+conda install -c anaconda opencv
+
+conda install -c anaconda tensorflow-gpu
+
+conda install -c anaconda tensorflow
+
+conda env update --file tools.yml
+
+python -m ipykernel install --user --name tensorflow-gpu --display-name "tensorflow-gpu"
+
