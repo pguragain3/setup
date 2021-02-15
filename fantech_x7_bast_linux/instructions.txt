@@ -1,0 +1,2 @@
+aunch front end.py with sudo to set dpi manually from gui
+launch backend.py as duso or automatic setup to 1600 dpi
