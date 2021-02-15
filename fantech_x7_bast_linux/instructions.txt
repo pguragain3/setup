@@ -1,2 +1,6 @@
 aunch front end.py with sudo to set dpi manually from gui
 launch backend.py as duso or automatic setup to 1600 dpi
+
+The code is not my original creation. I just modified some part of code implemented by GuessWhatBBQ
+
+Link to original code: https://github.com/GuessWhatBBQ/FantechX9ThorDriver
