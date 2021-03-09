@@ -21,4 +21,6 @@ dependencies:
         - bayesian-optimization
         - gym
         - kaggle
+        - opencv-python
+        - imutils
         
