@@ -69,7 +69,7 @@ bindkey '^e' edit-command-line
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
-SAVEHIST=100
+SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
 export PATH=$PATH:~/Scripts
