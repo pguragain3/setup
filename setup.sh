@@ -10,3 +10,5 @@ sudo adduser pg libvirt
 sudo apt update
 sudo systemctl start tlp
 sudo systemctl enable tlp
+mv .zshrc /home/pg
+mv .zsh_history /home/pg
